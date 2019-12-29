@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/CPTNibLoading.svg?style=flat)](https://cocoapods.org/pods/CPTNibLoading)
 [![Platform](https://img.shields.io/cocoapods/p/CPTNibLoading.svg?style=flat)](https://cocoapods.org/pods/CPTNibLoading)
 
+Based on [INSNibLoading](https://github.com/inspace-io/INSNibLoading) by Michał Zaborowski.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +24,7 @@ pod 'CPTNibLoading'
 
 ## Author
 
-support@chronicstimulation.com, support@chronicstimulation.com
+support@chronicstimulation.com
 
 ## License
 
