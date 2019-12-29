@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29B3619823B8DAAD000D81B8 /* UIView+CPTNibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B3619623B8DAAD000D81B8 /* UIView+CPTNibLoading.m */; };
-		29B3619923B8DAAD000D81B8 /* UIView+CPTNibLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B3619723B8DAAD000D81B8 /* UIView+CPTNibLoading.h */; };
+		29B3619923B8DAAD000D81B8 /* UIView+CPTNibLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B3619723B8DAAD000D81B8 /* UIView+CPTNibLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E7100C4849E020027B2A584CC4FAE51 /* CPTNibLoading-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B591C659F06FBEFFD6A20C47C52DBB08 /* CPTNibLoading-dummy.m */; };
 		A027F86B58796DB7867F5C060FFAF5ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A45FF015C9D90994A2B4BE2F6D164772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
