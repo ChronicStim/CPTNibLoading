@@ -1,0 +1,6 @@
+framework module CPTNibLoading {
+  umbrella header "CPTNibLoading-umbrella.h"
+
+  export *
+  module * { export * }
+}

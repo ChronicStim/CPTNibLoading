@@ -1,0 +1,16 @@
+PODS:
+  - CPTNibLoading (0.1.0)
+
+DEPENDENCIES:
+  - CPTNibLoading (from `../`)
+
+EXTERNAL SOURCES:
+  CPTNibLoading:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CPTNibLoading: f733fd82fc88302f62a1eb2b563145db359d6bc7
+
+PODFILE CHECKSUM: b8919d6f8df78dc5477584080ec415b7b0241d75
+
+COCOAPODS: 1.7.2

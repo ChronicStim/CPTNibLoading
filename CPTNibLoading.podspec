@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CPTNibLoading'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CPTNibLoading.'
+  s.summary          = 'A UIView category and a subclass for loading custom iOS views from UINib (xib) files. Based on INSNibLoading by Michał Zaborowski.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,17 +26,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'support@chronicstimulation.com' => 'support@chronicstimulation.com' }
   s.source           = { :git => 'https://github.com/support@chronicstimulation.com/CPTNibLoading.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'CPTNibLoading/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CPTNibLoading' => ['CPTNibLoading/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

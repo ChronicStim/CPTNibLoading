@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		165BF6A96019C81B48FB6C47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3C9F1905FCFB7EB0BDE15ACC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		165BF6A96019C81B48FB6C47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3C9F1905FCFB7EB0BDE15ACC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -29,7 +29,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		851E9DF90E2C06D1EAF4AEF3 /* Pods-CPTNibLoading_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTNibLoading_Tests.release.xcconfig"; path = "Target Support Files/Pods-CPTNibLoading_Tests/Pods-CPTNibLoading_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C36A608423C21CD577DC7F5 /* Pods-CPTNibLoading_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTNibLoading_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CPTNibLoading_Tests/Pods-CPTNibLoading_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9F382B2D7A29181337C651CB /* CPTNibLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CPTNibLoading.podspec; path = ../CPTNibLoading.podspec; sourceTree = "<group>"; };
+		9F382B2D7A29181337C651CB /* CPTNibLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPTNibLoading.podspec; path = ../CPTNibLoading.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E560F320CD2446BE9F588CA5 /* Pods_CPTNibLoading_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPTNibLoading_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,7 +114,6 @@
 				9C36A608423C21CD577DC7F5 /* Pods-CPTNibLoading_Tests.debug.xcconfig */,
 				851E9DF90E2C06D1EAF4AEF3 /* Pods-CPTNibLoading_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +150,7 @@
 				ORGANIZATIONNAME = "support@chronicstimulation.com";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = TPMZGZXERR;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -160,6 +160,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -327,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C36A608423C21CD577DC7F5 /* Pods-CPTNibLoading_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TPMZGZXERR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -351,6 +353,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 851E9DF90E2C06D1EAF4AEF3 /* Pods-CPTNibLoading_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TPMZGZXERR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

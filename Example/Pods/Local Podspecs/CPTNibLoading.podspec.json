@@ -1,0 +1,22 @@
+{
+  "name": "CPTNibLoading",
+  "version": "0.1.0",
+  "summary": "A short description of CPTNibLoading.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/support@chronicstimulation.com/CPTNibLoading",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "support@chronicstimulation.com": "support@chronicstimulation.com"
+  },
+  "source": {
+    "git": "https://github.com/support@chronicstimulation.com/CPTNibLoading.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CPTNibLoading/Classes/**/*"
+}
