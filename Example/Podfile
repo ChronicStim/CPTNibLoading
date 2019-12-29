@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CPTNibLoading_Tests' do
+  pod 'CPTNibLoading', :path => '../'
+  
+  
+end
